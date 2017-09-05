@@ -1,0 +1,12 @@
+a {
+  color: red;
+  direction: none;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+a:after {
+
+}
