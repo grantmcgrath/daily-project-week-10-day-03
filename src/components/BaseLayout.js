@@ -8,7 +8,7 @@ import '../styles/index.css';
 export default class BaseLayout extends Component {
   render() {
     return (
-      <div>
+      <div className="baselayout bgc">
         <nav>
           <div className="link"><Link to="/">SplashPage</Link></div>
           <div className="link"><Link to="/Home">Home</Link></div>

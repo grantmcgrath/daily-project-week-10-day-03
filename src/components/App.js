@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
+import img from "../images/splash.jpg";
 
 class App extends Component {
   render() {
     return (
-      <h1>Hello World!</h1>
-
+      <div>
+        <h1>Welcome to Splash Page!</h1>
+        <div>
+          <img src={img} alt="Splash!" />
+        </div>
+      </div>
     );
   }
 }
